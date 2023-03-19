@@ -1,7 +1,7 @@
 import streamlit as st
-import tkinter
-from tkinter import filedialog
-from pathlib import Path
+#import tkinter
+#from tkinter import filedialog
+#from pathlib import Path
 import LibraryTools
 import shutil
 import pandas
@@ -66,9 +66,9 @@ def move_font_files():
 delete_page('streamlittest.py', 'SearchBook')
 move_font_files()
 #tkniter for folder selection -- if needed
-root = tkinter.Tk()
-root.withdraw()
-root.wm_attributes('-topmost', 1)
+#root = tkinter.Tk()
+#root.withdraw()
+#root.wm_attributes('-topmost', 1)
 
 if 'Buildup' not in st.session_state:
     st.session_state['Buildup'] = 0
